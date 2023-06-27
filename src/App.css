@@ -1,0 +1,25 @@
+
+
+.App{
+    background-color: #fff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+}
+
+.logo img{
+width: 76px;
+height: 42.75px;
+flex-shrink: 0;
+}
+
+.navItems{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
