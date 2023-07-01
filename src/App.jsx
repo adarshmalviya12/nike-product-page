@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Nav from "./components/Nav";
+import Navigation from "./components/Navgation";
+import HeroSection from "./components/Hero";
 
 const App = () => {
  return (
-  <div className="App">
-   <Nav />
+  <div>
+   <Navigation />
+   <HeroSection />
   </div>
  );
 };
